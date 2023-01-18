@@ -1,0 +1,153 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #EEEEEE;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+div li{
+    list-style: none;
+    margin-right: 10em;
+}
+
+.nav_cont{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav h1{
+    margin-left: 5em;
+}
+
+main{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+main div{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+}
+
+main div h2{
+    margin-bottom: 20px;    
+}
+
+main div button{
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    background-color: #F2C20E;
+    border: none;
+}
+
+main div input{
+    padding: 5px 10px 5px 10px;
+    width: 13%;
+}
+
+.char{
+    /* background-color: aqua; */
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.video{
+    /* background-color: #F2C20E; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.left_al{
+    text-align: left;
+    margin-top: 50px;
+}
+
+.margin_tod{
+    margin-left: -144px;
+}
+
+.flex_3{
+    /* background-color: bisque; */
+    padding-top: 60px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex_3 .bdr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bdr{
+    border: 1.5px solid black;
+    padding: 15px 30px 15px 30px;
+    width: 20%;
+}
+
+.upr_se{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upr_se p{
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: #F1C40F;
+    border: none;
+    padding: 10px;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(221,221,221);
+    padding-top: 30px;  
+    padding-bottom: 30px;
+}
+
+footer p{
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+
+
+.main{
+    margin: 0px 174px;
+}
+
